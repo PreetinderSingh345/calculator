@@ -1,0 +1,170 @@
+/* body */
+
+body{
+
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	border:6px solid #c1c1c1;
+	border-radius:5px;
+	font-family:sans-serif;
+	background-color:#d3e7ee;
+	min-height:500px;
+
+}
+
+/* heading */
+
+#heading{
+
+	height:75px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;	
+	text-transform:uppercase;
+	text-decoration:underline;
+	font-weight:bold;
+	font-size:1.5rem;
+	color:#494545;	
+
+}
+
+/* calculator container */
+
+#calculator-container{
+
+	display:grid;
+	grid-template-columns:70px 70px 70px 70px;
+	grid-template-rows:100px 50px 50px 50px 50px 50px 50px;
+	grid-gap:5px;
+	padding:7.5px;
+	background-color:#a3a2a5;
+	border-radius:5px;
+
+	box-shadow:0 0 4px 4px lightgrey;
+
+}
+
+/* screen container */
+
+#screen-container{
+	
+	grid-column:1 / span 4;
+	background-color:#494545;
+	border-radius:2px;
+	color:white;
+	display:flex;
+	flex-direction:column;			
+
+}
+
+/* top and bottom screens */
+
+.screens{
+
+	width:285px;		
+	text-align:right;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+
+}
+
+.screens:hover{
+
+	text-overflow:initial;
+	overflow:auto;
+
+}
+
+.screens::-webkit-scrollbar{
+
+	height:5px;	
+
+}
+
+.screens::-webkit-scrollbar-track{
+
+	background-color:lightgrey;
+	border-radius:2px;
+
+}
+
+.screens::-webkit-scrollbar-thumb{
+
+	background-color:#5dcaec;
+	border-radius:2px;
+
+}
+
+/* top screen */
+
+#top-screen{
+	
+	padding:4px 5px;
+
+}
+
+/* bottom screen */
+
+#bottom-screen{
+	
+	
+	font-size:1.8rem;
+	font-weight:bold;
+	padding:18px 5px;
+
+}
+
+/* keys */
+
+.key{
+
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;	
+	background-color:#e7e6e6;
+	border-radius:2px;	
+
+}
+
+.bg{
+
+	background-color:#ffe0b2;
+
+}
+
+.num{
+
+	font-weight:bold;
+	font-size:1.2rem;
+
+}
+
+.grey:hover{
+
+	background-color:#d2d1d1;
+
+}
+
+.orange:hover{
+
+	background-color:#f5c885;
+
+}
+
+#equal-key:hover{
+
+	background-color:#93daf1;
+
+}
+
+#equal-key{
+
+	background-color:lightblue;
+	font-size:1.2rem;
+
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Calculator</title>
+
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<!-- above is the link to the external stylesheet -->
+
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<!-- meta tag for adjusting the content according to the device width -->
+
+</head>
+<body>
+
+	<!-- heading -->
+
+	<div id="heading">
+		calculator
+	</div>
+
+	<!-- calculator container -->
+
+	<div id="calculator-container">
+
+		<!-- screen container -->
+
+		<div id="screen-container">	
+
+			<!-- top screen -->
+
+			<div id="top-screen" class="screens">	
+				0
+			</div>		
+
+			<!-- bottom screen -->
+
+			<div id="bottom-screen" class="screens">
+				0
+			</div>
+		</div>
+
+		<!-- keys -->
+
+		<div class="key bg orange" data-val="%" name="%">	
+			&percnt;<!-- we have to use the html entities here -->
+		</div>
+
+		<div class="key bg orange" data-val="ce" name="ce">
+			CE
+		</div>
+
+		<div class="key bg orange" data-val="c" name="c">		
+			C
+		</div>
+
+		<div class="key bg orange" data-val="del" name="del">
+			Del
+		</div>
+
+		<div class="key bg orange" data-val="one-by-x">					
+			<sup>1</sup>&thinsp;&#8725;&thinsp;<sub>x</sub>			
+		</div>
+
+		<div class="key bg orange" data-val="x-square">
+			<sub>x</sub>&thinsp;<sup>2</sup>
+		</div>		
+
+		<div class="key bg orange" data-val="under-root-two">
+			<sup>2</sup>&thinsp;&radic;&thinsp;<sub>x</sub>
+		</div>
+
+		<div class="key bg orange" data-val="/" name="/">	
+			&divide;
+		</div>
+
+		<div class="key num grey" data-val="7" name="7">		
+			7
+		</div>
+
+		<div class="key num grey" data-val="8" name="8">
+			8
+		</div>		
+
+		<div class="key num grey"  data-val="9" name="9">
+			9
+		</div>
+
+		<div class="key bg orange" data-val="*" name="*">	
+			&times;	
+		</div>
+
+		<div class="key num grey" data-val="4" name="4">	
+			4
+		</div>
+
+		<div class="key num grey" data-val="5" name="5">
+			5
+		</div>		
+
+		<div class="key num grey" data-val="6" name="6">
+			6
+		</div>
+
+		<div class="key bg orange" data-val="-" name="-">		
+			&minus;
+		</div>
+
+		<div class="key num grey" data-val="1" name="1">
+			1
+		</div>
+
+		<div class="key num grey" data-val="2" name="2">		
+			2
+		</div>
+
+		<div class="key num grey" data-val="3" name="3">
+			3
+		</div>
+
+		<div class="key bg orange" data-val="+" name="+">		
+			&plus;
+		</div>
+
+		<div class="key grey" data-val="plus-minus">
+			<sup>+</sup>&thinsp;&#8725;&thinsp;<sub>-</sub>
+		</div>
+
+		<div class="key num grey" data-val="0" name="0">		
+			0
+		</div>
+
+		<div class="key num grey" data-val="." name=".">	
+			&#8729;
+		</div>
+
+		<div class="key" id="equal-key" data-val="=" name="=">
+			&equals;
+		</div>
+	</div>
+
+	<script src="./script.js">
+	</script>
+
+	<!-- above is the link to the external js file -->
+
+</body>
+</html>
